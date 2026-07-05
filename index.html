@@ -142,12 +142,23 @@
 
     </main>
 
-    <footer class="w-full max-w-5xl mx-auto text-center py-8 text-slate-400 text-sm mt-auto flex flex-col sm:flex-row justify-between items-center gap-4 px-6 border-t border-slate-200/60">
-        <p data-i18n="footerRights">© 2026 EXIF Cleaner. Built for privacy.</p>
+    <footer class="w-full max-w-5xl mx-auto py-8 text-slate-400 text-sm mt-auto flex flex-col sm:flex-row justify-between items-center gap-6 px-6 border-t border-slate-200/60">
+        
+        <!-- Links: Copyright & Spenden-Button -->
+        <div class="flex flex-col sm:flex-row items-center gap-4">
+            <p data-i18n="footerRights">© 2026 EXIF Cleaner. Built for privacy.</p>
+            
+            <a href="DEIN_LINK_HIER" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 bg-amber-100 text-amber-800 px-4 py-1.5 rounded-full font-bold text-xs hover:bg-amber-200 hover:scale-105 transition-all duration-200 shadow-sm border border-amber-200">
+                ☕ <span data-i18n="donateText">Buy me a coffee</span>
+            </a>
+        </div>
+
+        <!-- Rechts: Rechtliche Links -->
         <div class="flex gap-6 font-medium">
             <a href="privacy.html" class="hover:text-blue-600 transition-colors">Privacy Policy</a>
             <a href="imprint.html" class="hover:text-blue-600 transition-colors">Imprint</a>
         </div>
+        
     </footer>
 
     <script src="app.js"></script>
