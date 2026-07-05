@@ -29,7 +29,7 @@ const translations = {
         feat2Desc: "Clean hundreds of images in seconds. No uploading or downloading wait times.",
         feat3Title: "Format Conversion",
         feat3Desc: "Easily convert bulky smartphone photos into web-optimized WebP or JPEG files.",
-        footerRights: "© 2026 EXIF Cleaner Pro. Built for privacy."
+        footerRights: "© 2026 EXIF Cleaner. Built for privacy."
     },
     de: {
         title: "EXIF Cleaner",
@@ -61,7 +61,7 @@ const translations = {
         feat2Desc: "Bereinige hunderte Bilder in Sekunden. Keine nervigen Upload- oder Download-Wartezeiten.",
         feat3Title: "Format-Konverter",
         feat3Desc: "Konvertiere riesige Smartphone-Fotos direkt in speicherplatzsparende WebP- oder JPEG-Dateien.",
-        footerRights: "© 2026 EXIF Cleaner Pro. Gebaut für Privatsphäre."
+        footerRights: "© 2026 EXIF Cleaner. Gebaut für Privatsphäre."
     },
     es: {
         title: "EXIF Cleaner",
@@ -93,7 +93,7 @@ const translations = {
         feat2Desc: "Limpia cientos de imágenes en segundos. Sin tiempos de subida ni descarga.",
         feat3Title: "Conversión de Formato",
         feat3Desc: "Convierte fotos pesadas en archivos WebP o JPEG optimizados para la web.",
-        footerRights: "© 2026 EXIF Cleaner Pro. Construido para la privacidad."
+        footerRights: "© 2026 EXIF Cleaner. Construido para la privacidad."
     },
     fr: {
         title: "EXIF Cleaner",
@@ -125,7 +125,7 @@ const translations = {
         feat2Desc: "Nettoyez des centaines d'images en quelques secondes. Aucun temps de téléchargement.",
         feat3Title: "Conversion de Format",
         feat3Desc: "Convertissez facilement vos photos en fichiers WebP ou JPEG optimisés pour le web.",
-        footerRights: "© 2026 EXIF Cleaner Pro. Conçu pour la confidentialité."
+        footerRights: "© 2026 EXIF Cleaner. Conçu pour la confidentialité."
     }
 };
 
