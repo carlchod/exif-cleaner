@@ -22,7 +22,7 @@ const translations = {
         gpsFound: "<span class='text-rose-500 font-bold'>GPS found!</span>",
         noGps: "<span class='text-emerald-500'>No GPS</span>",
         unknown: "Unknown",
-        // NEUE TEXTE:
+
         feat1Title: "Zero Trust Privacy",
         feat1Desc: "Your images never leave your device. All metadata is stripped locally inside your browser.",
         feat2Title: "Lightning Fast",
@@ -54,7 +54,7 @@ const translations = {
         gpsFound: "<span class='text-rose-500 font-bold'>GPS gefunden!</span>",
         noGps: "<span class='text-emerald-500'>Kein GPS</span>",
         unknown: "Unbekannt",
-        // NEUE TEXTE:
+
         feat1Title: "Zero Trust Datenschutz",
         feat1Desc: "Deine Bilder verlassen nie dein Gerät. Alle Metadaten werden lokal in deinem Browser gelöscht.",
         feat2Title: "Pfeilschnell",
@@ -86,7 +86,7 @@ const translations = {
         gpsFound: "<span class='text-rose-500 font-bold'>¡GPS encontrado!</span>",
         noGps: "<span class='text-emerald-500'>Sin GPS</span>",
         unknown: "Desconocido",
-        // NEUE TEXTE:
+
         feat1Title: "Privacidad Zero Trust",
         feat1Desc: "Tus imágenes nunca salen de tu dispositivo. Todos los datos se borran localmente.",
         feat2Title: "Súper Rápido",
@@ -118,7 +118,7 @@ const translations = {
         gpsFound: "<span class='text-rose-500 font-bold'>GPS trouvé !</span>",
         noGps: "<span class='text-emerald-500'>Pas de GPS</span>",
         unknown: "Inconnu",
-        // NEUE TEXTE:
+
         feat1Title: "Confidentialité Zero Trust",
         feat1Desc: "Vos images ne quittent jamais votre appareil. Les métadonnées sont supprimées localement.",
         feat2Title: "Ultra Rapide",
