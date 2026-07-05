@@ -1,6 +1,6 @@
 const translations = {
     en: {
-        title: "EXIF Cleaner Pro",
+        title: "EXIF Cleaner",
         subtitle: "Drag and drop as many images as you want. We analyze them and pack them cleaned into a ZIP. <br><span class='text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-md mt-2 inline-block'>100% local in your browser.</span>",
         formatLabel: "Output Format",
         formatOriginal: "Keep Original",
@@ -32,7 +32,7 @@ const translations = {
         footerRights: "© 2026 EXIF Cleaner Pro. Built for privacy."
     },
     de: {
-        title: "EXIF Cleaner Pro",
+        title: "EXIF Cleaner",
         subtitle: "Zieh so viele Bilder rein, wie du willst. Wir packen sie analysiert und bereinigt in ein ZIP. <br><span class='text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-md mt-2 inline-block'>100% lokal im Browser.</span>",
         formatLabel: "Ausgabeformat",
         formatOriginal: "Original behalten",
@@ -64,7 +64,7 @@ const translations = {
         footerRights: "© 2026 EXIF Cleaner Pro. Gebaut für Privatsphäre."
     },
     es: {
-        title: "EXIF Cleaner Pro",
+        title: "EXIF Cleaner",
         subtitle: "Arrastra tantas imágenes como quieras. Las empaquetamos limpias en un ZIP. <br><span class='text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-md mt-2 inline-block'>100% local en tu navegador.</span>",
         formatLabel: "Formato de salida",
         formatOriginal: "Mantener Original",
@@ -96,7 +96,7 @@ const translations = {
         footerRights: "© 2026 EXIF Cleaner Pro. Construido para la privacidad."
     },
     fr: {
-        title: "EXIF Cleaner Pro",
+        title: "EXIF Cleaner",
         subtitle: "Déposez autant d'images que vous voulez. Nous les regroupons nettoyées dans un ZIP. <br><span class='text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-md mt-2 inline-block'>100% local dans le navigateur.</span>",
         formatLabel: "Format de sortie",
         formatOriginal: "Conserver l'original",
