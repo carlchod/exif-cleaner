@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXIF Cleaner | Zero Trust Metadaten-Entferner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen font-sans text-gray-800">
+
+    <div class="bg-white p-8 rounded-2xl shadow-xl max-w-lg w-full text-center border border-gray-100">
+        
+        <h1 class="text-3xl font-bold mb-2 text-gray-900">EXIF Cleaner</h1>
+        <p class="text-sm text-gray-500 mb-8">Entferne versteckte Standort- und Kameradaten aus deinen Bildern. <br> <span class="font-medium text-green-600">100% lokal. Keine Server-Uploads.</span></p>
+
+        <div class="flex items-center justify-center w-full">
+            <label for="imageUpload" class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors duration-200">
+                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                    <svg class="w-12 h-12 mb-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                    </svg>
+                    <p class="mb-2 text-sm text-gray-600"><span class="font-semibold text-blue-600">Klick hier</span> oder ziehe ein Bild hinein</p>
+                    <p class="text-xs text-gray-400">JPEG, PNG oder WEBP</p>
+                </div>
+                <input id="imageUpload" type="file" class="hidden" accept="image/jpeg, image/png, image/webp" />
+            </label>
+        </div>
+
+        <div id="resultArea" class="mt-6 hidden">
+            <p class="text-sm text-green-600 font-semibold mb-3">✅ Metadaten erfolgreich entfernt!</p>
+            <button id="downloadBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition-colors shadow-md">
+                Bereinigtes Bild herunterladen
+            </button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
